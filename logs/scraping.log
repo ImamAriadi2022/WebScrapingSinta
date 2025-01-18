@@ -1,0 +1,24 @@
+2025-01-18 17:09:11,344 - INFO - Program dimulai
+2025-01-18 17:10:16,253 - INFO - Berhasil mengakses halaman.
+2025-01-18 17:12:44,219 - INFO - Memulai scraping data dari halaman.
+2025-01-18 17:12:45,664 - INFO - Berhasil mengakses halaman.
+2025-01-18 17:12:45,695 - WARNING - Tidak menemukan elemen tabel di halaman.
+2025-01-18 17:12:45,696 - WARNING - Tidak ada data kampus yang disimpan karena kosong.
+2025-01-18 17:14:46,233 - INFO - Memulai scraping data dari halaman.
+2025-01-18 17:14:47,889 - INFO - Berhasil mengakses halaman.
+2025-01-18 17:14:47,935 - WARNING - Tidak menemukan elemen tabel di halaman.
+2025-01-18 17:19:56,123 - INFO - Memulai scraping data dari halaman.
+2025-01-18 17:20:07,987 - WARNING - Tidak menemukan elemen tabel di halaman.
+2025-01-18 17:20:07,988 - WARNING - Tidak ada data kampus yang disimpan karena kosong.
+2025-01-18 17:21:37,925 - INFO - Memulai scraping data dari halaman.
+2025-01-18 17:21:45,043 - INFO - Ditemukan 4 baris data dalam tabel.
+2025-01-18 17:21:45,101 - INFO - Data berhasil disimpan di ../data/data_kampus.csv
+2025-01-18 17:23:26,968 - INFO - Memulai scraping data dari halaman.
+2025-01-18 17:23:35,907 - INFO - Ditemukan 4 baris data dalam tabel.
+2025-01-18 17:23:35,911 - INFO - Data berhasil disimpan di ../data/data_kampus.csv
+2025-01-18 17:23:57,257 - INFO - Memulai scraping data dari halaman.
+2025-01-18 17:24:04,484 - INFO - Ditemukan 4 baris data dalam tabel.
+2025-01-18 17:24:04,488 - INFO - Data berhasil disimpan di ../data/data_kampus.csv
+2025-01-18 17:25:42,607 - INFO - Memulai scraping data dari halaman.
+2025-01-18 17:25:50,338 - INFO - Ditemukan 4 baris data dalam tabel.
+2025-01-18 17:25:50,339 - WARNING - Tidak ada data kampus yang disimpan karena kosong.
