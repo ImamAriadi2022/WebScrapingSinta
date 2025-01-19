@@ -1,24 +1,140 @@
-2025-01-18 17:09:11,344 - INFO - Program dimulai
-2025-01-18 17:10:16,253 - INFO - Berhasil mengakses halaman.
-2025-01-18 17:12:44,219 - INFO - Memulai scraping data dari halaman.
-2025-01-18 17:12:45,664 - INFO - Berhasil mengakses halaman.
-2025-01-18 17:12:45,695 - WARNING - Tidak menemukan elemen tabel di halaman.
-2025-01-18 17:12:45,696 - WARNING - Tidak ada data kampus yang disimpan karena kosong.
-2025-01-18 17:14:46,233 - INFO - Memulai scraping data dari halaman.
-2025-01-18 17:14:47,889 - INFO - Berhasil mengakses halaman.
-2025-01-18 17:14:47,935 - WARNING - Tidak menemukan elemen tabel di halaman.
-2025-01-18 17:19:56,123 - INFO - Memulai scraping data dari halaman.
-2025-01-18 17:20:07,987 - WARNING - Tidak menemukan elemen tabel di halaman.
-2025-01-18 17:20:07,988 - WARNING - Tidak ada data kampus yang disimpan karena kosong.
-2025-01-18 17:21:37,925 - INFO - Memulai scraping data dari halaman.
-2025-01-18 17:21:45,043 - INFO - Ditemukan 4 baris data dalam tabel.
-2025-01-18 17:21:45,101 - INFO - Data berhasil disimpan di ../data/data_kampus.csv
-2025-01-18 17:23:26,968 - INFO - Memulai scraping data dari halaman.
-2025-01-18 17:23:35,907 - INFO - Ditemukan 4 baris data dalam tabel.
-2025-01-18 17:23:35,911 - INFO - Data berhasil disimpan di ../data/data_kampus.csv
-2025-01-18 17:23:57,257 - INFO - Memulai scraping data dari halaman.
-2025-01-18 17:24:04,484 - INFO - Ditemukan 4 baris data dalam tabel.
-2025-01-18 17:24:04,488 - INFO - Data berhasil disimpan di ../data/data_kampus.csv
-2025-01-18 17:25:42,607 - INFO - Memulai scraping data dari halaman.
-2025-01-18 17:25:50,338 - INFO - Ditemukan 4 baris data dalam tabel.
-2025-01-18 17:25:50,339 - WARNING - Tidak ada data kampus yang disimpan karena kosong.
+2025-01-19 12:24:20,382 - INFO - Memulai scraping data dari halaman utama.
+2025-01-19 12:24:27,092 - INFO - Ditemukan 11 elemen tr.
+2025-01-19 12:24:27,093 - INFO - Mengakses detail URL: https://dashboard-lldikti6.kemdikbud.go.id/?3042a07e3c63355611c3e3a785dd14a1081b6f07b4f2205c41949f0512919c77
+2025-01-19 13:24:19,703 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/3ca072a391c827622afd4e74e00a91e3
+2025-01-19 13:24:23,819 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F37C852F90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3ca072a391c827622afd4e74e00a91e3
+2025-01-19 13:24:27,912 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F37C8530D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3ca072a391c827622afd4e74e00a91e3
+2025-01-19 13:29:25,930 - INFO - Memulai scraping data dari halaman utama.
+2025-01-19 13:29:34,092 - INFO - Ditemukan 130 elemen tr.
+2025-01-19 13:29:34,107 - WARNING - Tidak ada data kampus yang disimpan karena kosong.
+2025-01-19 13:30:19,239 - INFO - Memulai scraping data dari halaman utama.
+2025-01-19 13:30:28,226 - INFO - Ditemukan 130 elemen tr.
+2025-01-19 13:30:28,260 - WARNING - Tidak ada data kampus yang disimpan karena kosong.
+2025-01-19 13:33:03,514 - INFO - Memulai scraping data dari halaman utama.
+2025-01-19 13:33:10,728 - INFO - Ditemukan 130 elemen tr.
+2025-01-19 13:33:10,729 - INFO - Data ditemukan: Universitas Gadjah Mada, Daerah Istimewa Yogyakarta
+2025-01-19 13:33:10,729 - INFO - Data ditemukan: Universitas Indonesia, DKI Jakarta
+2025-01-19 13:33:10,730 - INFO - Data ditemukan: Universitas Sumatera Utara, Sumatera Utara
+2025-01-19 13:33:10,730 - INFO - Data ditemukan: Universitas Airlangga, Jawa Timur
+2025-01-19 13:33:10,730 - INFO - Data ditemukan: Universitas Hasanuddin, Sulawesi Selatan
+2025-01-19 13:33:10,731 - INFO - Data ditemukan: Universitas Andalas, Sumatera Barat
+2025-01-19 13:33:10,731 - INFO - Data ditemukan: Universitas Padjadjaran, Jawa Barat
+2025-01-19 13:33:10,731 - INFO - Data ditemukan: Universitas Diponegoro, Jawa Tengah
+2025-01-19 13:33:10,732 - INFO - Data ditemukan: Universitas Sriwijaya, Sumatera Selatan
+2025-01-19 13:33:10,732 - INFO - Data ditemukan: Universitas Lambung Mangkurat, Kalimantan Selatan
+2025-01-19 13:33:10,732 - INFO - Data ditemukan: Universitas Syiah Kuala, Aceh
+2025-01-19 13:33:10,733 - INFO - Data ditemukan: Universitas Sam Ratulangi, Sulawesi Utara
+2025-01-19 13:33:10,733 - INFO - Data ditemukan: Universitas Udayana, Bali
+2025-01-19 13:33:10,733 - INFO - Data ditemukan: Universitas Nusa Cendana, Nusa Tenggara Timur
+2025-01-19 13:33:10,733 - INFO - Data ditemukan: Universitas Mulawarman, Kalimantan Timur
+2025-01-19 13:33:10,734 - INFO - Data ditemukan: Universitas Mataram, Nusa Tenggara Barat
+2025-01-19 13:33:10,734 - INFO - Data ditemukan: Universitas Riau, Riau
+2025-01-19 13:33:10,734 - INFO - Data ditemukan: Universitas Cenderawasih, Papua
+2025-01-19 13:33:10,734 - INFO - Data ditemukan: Universitas Brawijaya, Jawa Timur
+2025-01-19 13:33:10,735 - INFO - Data ditemukan: Universitas Jambi, Jambi
+2025-01-19 13:33:10,735 - INFO - Data ditemukan: Universitas Pattimura, Maluku
+2025-01-19 13:33:10,735 - INFO - Data ditemukan: Universitas Tanjungpura, Kalimantan Barat
+2025-01-19 13:33:10,735 - INFO - Data ditemukan: Universitas Jenderal Soedirman, Jawa Tengah
+2025-01-19 13:33:10,736 - INFO - Data ditemukan: Universitas Palangka Raya, Kalimantan Tengah
+2025-01-19 13:33:10,736 - INFO - Data ditemukan: Universitas Jember, Jawa Timur
+2025-01-19 13:33:10,736 - INFO - Data ditemukan: Universitas Lampung, Lampung
+2025-01-19 13:33:10,737 - INFO - Data ditemukan: Universitas Sebelas Maret, Jawa Tengah
+2025-01-19 13:33:10,737 - INFO - Data ditemukan: Universitas Tadulako, Sulawesi Tengah
+2025-01-19 13:33:10,737 - INFO - Data ditemukan: Universitas Halu Oleo, Sulawesi Tenggara
+2025-01-19 13:33:10,737 - INFO - Data ditemukan: Universitas Bengkulu, Bengkulu
+2025-01-19 13:33:10,738 - INFO - Data ditemukan: Universitas Terbuka, Banten
+2025-01-19 13:33:10,738 - INFO - Data ditemukan: Universitas Negeri Padang, Sumatera Barat
+2025-01-19 13:33:10,738 - INFO - Data ditemukan: Universitas Negeri Malang, Jawa Timur
+2025-01-19 13:33:10,738 - INFO - Data ditemukan: Universitas Pendidikan Indonesia, Jawa Barat
+2025-01-19 13:33:10,739 - INFO - Data ditemukan: Universitas Negeri Manado, Sulawesi Utara
+2025-01-19 13:33:10,739 - INFO - Data ditemukan: Universitas Negeri Makassar, Sulawesi Selatan
+2025-01-19 13:33:10,739 - INFO - Data ditemukan: Universitas Negeri Jakarta, DKI Jakarta
+2025-01-19 13:33:10,740 - INFO - Data ditemukan: Universitas Negeri Yogyakarta, Daerah Istimewa Yogyakarta
+2025-01-19 13:33:10,740 - INFO - Data ditemukan: Universitas Negeri Surabaya, Jawa Timur
+2025-01-19 13:33:10,740 - INFO - Data ditemukan: Universitas Negeri Medan, Sumatera Utara
+2025-01-19 13:33:10,740 - INFO - Data ditemukan: Universitas Negeri Semarang, Jawa Tengah
+2025-01-19 13:33:10,741 - INFO - Data ditemukan: Universitas Sultan Ageng Tirtayasa, Banten
+2025-01-19 13:33:10,741 - INFO - Data ditemukan: Universitas Trunojoyo Madura, Jawa Timur
+2025-01-19 13:33:10,741 - INFO - Data ditemukan: Universitas Khairun, Maluku Utara
+2025-01-19 13:33:10,741 - INFO - Data ditemukan: Universitas Papua, Papua Barat
+2025-01-19 13:33:10,742 - INFO - Data ditemukan: Universitas Malikussaleh, Aceh
+2025-01-19 13:33:10,742 - INFO - Data ditemukan: Universitas Negeri Gorontalo, Gorontalo
+2025-01-19 13:33:10,742 - INFO - Data ditemukan: Universitas Pendidikan Ganesha, Bali
+2025-01-19 13:33:10,742 - INFO - Data ditemukan: Universitas Bangka Belitung, Bangka Belitung
+2025-01-19 13:33:10,743 - INFO - Data ditemukan: Universitas Borneo Tarakan, Kalimantan Utara
+2025-01-19 13:33:10,743 - INFO - Data ditemukan: Universitas Musamus Merauke, Papua Selatan
+2025-01-19 13:33:10,743 - INFO - Data ditemukan: Universitas Maritim Raja Ali Haji, Kepulauan Riau
+2025-01-19 13:33:10,743 - INFO - Data ditemukan: Universitas Samudra, Aceh
+2025-01-19 13:33:10,744 - INFO - Data ditemukan: Universitas Sulawesi Barat, Sulawesi Barat
+2025-01-19 13:33:10,744 - INFO - Data ditemukan: Universitas Sembilanbelas November, Sulawesi Tenggara
+2025-01-19 13:33:10,744 - INFO - Data ditemukan: Universitas Tidar, Jawa Tengah
+2025-01-19 13:33:10,744 - INFO - Data ditemukan: Universitas Siliwangi, Jawa Barat
+2025-01-19 13:33:10,745 - INFO - Data ditemukan: Universitas Teuku Umar, Aceh
+2025-01-19 13:33:10,745 - INFO - Data ditemukan: Universitas Pembangunan Nasional "Veteran" Jawa Timur, Jawa Timur
+2025-01-19 13:33:10,745 - INFO - Data ditemukan: Universitas Timor, Nusa Tenggara Timur
+2025-01-19 13:33:10,745 - INFO - Data ditemukan: Universitas Pembangunan Nasional "Veteran" Jakarta, DKI Jakarta
+2025-01-19 13:33:10,746 - INFO - Data ditemukan: Universitas Pembangunan Nasional "Veteran" Yogyakarta, Daerah Istimewa Yogyakarta
+2025-01-19 13:33:10,746 - INFO - Data ditemukan: Universitas Singaperbangsa Karawang, Jawa Barat
+2025-01-19 13:33:10,746 - INFO - Data ditemukan: Institut Teknologi Bandung, Jawa Barat
+2025-01-19 13:33:10,746 - INFO - Data ditemukan: Institut Teknologi Sepuluh Nopember, Jawa Timur
+2025-01-19 13:33:10,746 - INFO - Data ditemukan: Institut Pertanian Bogor, Jawa Barat
+2025-01-19 13:33:10,748 - INFO - Data ditemukan: Institut Seni Indonesia Yogyakarta, Daerah Istimewa Yogyakarta
+2025-01-19 13:33:10,748 - INFO - Data ditemukan: Institut Seni Indonesia Denpasar, Bali
+2025-01-19 13:33:10,748 - INFO - Data ditemukan: Institut Seni Indonesia Surakarta, Jawa Tengah
+2025-01-19 13:33:10,749 - INFO - Data ditemukan: Institut Seni Indonesia Padang Panjang, Sumatera Barat
+2025-01-19 13:33:10,749 - INFO - Data ditemukan: Institut Seni Budaya Indonesia Bandung, Jawa Barat
+2025-01-19 13:33:10,750 - INFO - Data ditemukan: Institut Seni Budaya Indonesia Aceh, Aceh
+2025-01-19 13:33:10,750 - INFO - Data ditemukan: Institut Seni Budaya Indonesia Tanah Papua, Papua
+2025-01-19 13:33:10,751 - INFO - Data ditemukan: Institut Teknologi Kalimantan, Kalimantan Timur
+2025-01-19 13:33:10,751 - INFO - Data ditemukan: Institut Teknologi Sumatera, Lampung
+2025-01-19 13:33:10,752 - INFO - Data ditemukan: Institut Teknologi Bacharuddin Jusuf Habibie, Sulawesi Selatan
+2025-01-19 13:33:10,752 - INFO - Data ditemukan: Politeknik Manufaktur Bandung, Jawa Barat
+2025-01-19 13:33:10,752 - INFO - Data ditemukan: Politeknik Negeri Jakarta, DKI Jakarta
+2025-01-19 13:33:10,753 - INFO - Data ditemukan: Politeknik Negeri Medan, Sumatera Utara
+2025-01-19 13:33:10,753 - INFO - Data ditemukan: Politeknik Negeri Bandung, Jawa Barat
+2025-01-19 13:33:10,753 - INFO - Data ditemukan: Politeknik Negeri Semarang, Jawa Tengah
+2025-01-19 13:33:10,754 - INFO - Data ditemukan: Politeknik Negeri Sriwijaya, Sumatera Selatan
+2025-01-19 13:33:10,754 - INFO - Data ditemukan: Politeknik Negeri Lampung, Lampung
+2025-01-19 13:33:10,754 - INFO - Data ditemukan: Politeknik Negeri Ambon, Maluku
+2025-01-19 13:33:10,755 - INFO - Data ditemukan: Politeknik Negeri Padang, Sumatera Barat
+2025-01-19 13:33:10,755 - INFO - Data ditemukan: Politeknik Negeri Bali, Bali
+2025-01-19 13:33:10,755 - INFO - Data ditemukan: Politeknik Negeri Pontianak, Kalimantan Barat
+2025-01-19 13:33:10,755 - INFO - Data ditemukan: Politeknik Negeri Ujung Pandang, Sulawesi Selatan
+2025-01-19 13:33:10,756 - INFO - Data ditemukan: Politeknik Negeri Manado, Sulawesi Utara
+2025-01-19 13:33:10,756 - INFO - Data ditemukan: Politeknik Perkapalan Negeri Surabaya, Jawa Timur
+2025-01-19 13:33:10,756 - INFO - Data ditemukan: Politeknik Negeri Banjarmasin, Kalimantan Selatan
+2025-01-19 13:33:10,757 - INFO - Data ditemukan: Politeknik Negeri Lhokseumawe, Aceh
+2025-01-19 13:33:10,757 - INFO - Data ditemukan: Politeknik Negeri Kupang, Nusa Tenggara Timur
+2025-01-19 13:33:10,757 - INFO - Data ditemukan: Politeknik Elektronika Negeri Surabaya, Jawa Timur
+2025-01-19 13:33:10,758 - INFO - Data ditemukan: Politeknik Negeri Jember, Jawa Timur
+2025-01-19 13:33:10,758 - INFO - Data ditemukan: Politeknik Pertanian Negeri Pangkajene Kepulauan, Sulawesi Selatan
+2025-01-19 13:33:10,758 - INFO - Data ditemukan: Politeknik Pertanian Negeri Kupang, Nusa Tenggara Timur
+2025-01-19 13:33:10,759 - INFO - Data ditemukan: Politeknik Perikanan Negeri Tual, Maluku
+2025-01-19 13:33:10,759 - INFO - Data ditemukan: Politeknik Negeri Malang, Jawa Timur
+2025-01-19 13:33:10,759 - INFO - Data ditemukan: Politeknik Pertanian Negeri Samarinda, Kalimantan Timur
+2025-01-19 13:33:10,759 - INFO - Data ditemukan: Politeknik Pertanian Negeri Payakumbuh, Sumatera Barat
+2025-01-19 13:33:10,760 - INFO - Data ditemukan: Politeknik Negeri Samarinda, Kalimantan Timur
+2025-01-19 13:33:10,760 - INFO - Data ditemukan: Politeknik Negeri Media Kreatif, DKI Jakarta
+2025-01-19 13:33:10,760 - INFO - Data ditemukan: Politeknik Manufaktur Negeri Bangka Belitung, Kepulauan Bangka Belitung
+2025-01-19 13:33:10,760 - INFO - Data ditemukan: Politeknik Negeri Batam, Kepulauan Riau
+2025-01-19 13:33:10,761 - INFO - Data ditemukan: Politeknik Negeri Nusa Utara, Sulawesi Utara
+2025-01-19 13:33:10,761 - INFO - Data ditemukan: Politeknik Negeri Bengkalis, Riau
+2025-01-19 13:33:10,761 - INFO - Data ditemukan: Politeknik Negeri Balikpapan, Kalimantan Timur
+2025-01-19 13:33:10,761 - INFO - Data ditemukan: Politeknik Negeri Madura, Jawa Timur
+2025-01-19 13:33:10,762 - INFO - Data ditemukan: Politeknik Maritim Negeri Indonesia, Jawa Tengah
+2025-01-19 13:33:10,762 - INFO - Data ditemukan: Politeknik Negeri Banyuwangi, Jawa Timur
+2025-01-19 13:33:10,762 - INFO - Data ditemukan: Politeknik Negeri Madiun, Jawa Timur
+2025-01-19 13:33:10,762 - INFO - Data ditemukan: Politeknik Negeri Fakfak, Papua Barat
+2025-01-19 13:33:10,763 - INFO - Data ditemukan: Politeknik Negeri Sambas, Kalimantan Barat
+2025-01-19 13:33:10,763 - INFO - Data ditemukan: Politeknik Negeri Tanah Laut, Kalimantan Selatan
+2025-01-19 13:33:10,763 - INFO - Data ditemukan: Politeknik Negeri Subang, Jawa Barat
+2025-01-19 13:33:10,763 - INFO - Data ditemukan: Politeknik Negeri Ketapang, Kalimantan Barat
+2025-01-19 13:33:10,764 - INFO - Data ditemukan: Politeknik Negeri Cilacap, Jawa Tengah
+2025-01-19 13:33:10,764 - INFO - Data ditemukan: Politeknik Negeri Indramayu, Jawa Barat
+2025-01-19 13:33:10,765 - INFO - Data ditemukan: Politeknik Negeri Nunukan, Kalimantan Utara
+2025-01-19 13:33:10,765 - INFO - Data ditemukan: Akademi Komunitas Negeri Pacitan, Jawa Timur
+2025-01-19 13:33:10,765 - INFO - Data ditemukan: Akademi Komunitas Negeri Putra Sang Fajar Blitar, Jawa Timur
+2025-01-19 13:33:10,766 - INFO - Data ditemukan: Akademi Komunitas Negeri Aceh Barat, Aceh
+2025-01-19 13:33:10,766 - INFO - Data ditemukan: Akademi Komunitas Negeri Rejang Lebong, Bengkulu
+2025-01-19 13:33:10,766 - INFO - Data ditemukan: Akademi Komunitas Negeri Seni dan Budaya Yogyakarta, Daerah Istimewa Yogyakarta
+2025-01-19 13:33:10,770 - INFO - Data berhasil disimpan di data/daftar_kampus_indo.csv

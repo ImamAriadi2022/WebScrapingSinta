@@ -17,7 +17,7 @@ logging.basicConfig(
 )
 
 # URL target
-BASE_URL = "https://sinta.kemdikbud.go.id/affiliations/profile/384"
+BASE_URL = "https://sinta.kemdikbud.go.id/affiliations?page="
 
 def scrape_data():
     """Fungsi utama untuk melakukan scraping menggunakan Selenium."""
@@ -32,37 +32,70 @@ def scrape_data():
     
     try:
         logging.info("Memulai scraping data dari halaman.")
-        driver.get(BASE_URL)
-        time.sleep(5)  # Tunggu beberapa saat agar JavaScript selesai dimuat
-
-        # Simpan halaman setelah dimuat untuk debugging
-        with open("logs/page_source.html", "w", encoding="utf-8") as f:
-            f.write(driver.page_source)
-
-        # Parsing dengan BeautifulSoup
-        soup = BeautifulSoup(driver.page_source, "html.parser")
-        rows = soup.select("tr")  # Selektor tabel
         
-        if not rows:
-            logging.warning("Tidak menemukan elemen tabel di halaman.")
-        else:
-            logging.info(f"Ditemukan {len(rows)-1} baris data dalam tabel.")
-        
-        # Proses data tabel
         kampus_list = []
-        for idx, row in enumerate(rows[1:], start=1):  # Skip header tabel
-            cols = row.find_all("td")
-            if len(cols) >= 2:
-                nama_kampus = cols[1].get_text(strip=True)
-                alamat = cols[2].get_text(strip=True) if len(cols) > 2 else "-"
-                # Filter kampus yang memiliki departemen/prodi komputer
-                if any(prodi in nama_kampus for prodi in ["SI", "TI", "SK", "MTI", "Sains Data"]):
-                    kampus_list.append([idx, nama_kampus, alamat])
-                    print(f"Data ditemukan: {idx}, {nama_kampus}, {alamat}")  # Debugging
+        page = 1
+        
+        while True:
+            current_url = BASE_URL + str(page)
+            logging.info(f"Mengambil data dari {current_url}")
+            
+            # Tambahkan retry logic
+            max_retries = 3
+            for attempt in range(max_retries):
+                try:
+                    driver.set_page_load_timeout(180)  # Tingkatkan timeout menjadi 180 detik
+                    driver.get(current_url)
+                    break
+                except Exception as e:
+                    logging.warning(f"Percobaan {attempt + 1} gagal: {e}")
+                    if attempt == max_retries - 1:
+                        raise
+
+            time.sleep(5)  # Tunggu beberapa saat agar JavaScript selesai dimuat
+
+            # Simpan halaman setelah dimuat untuk debugging
+            with open(f"logs/page_source_{page}.html", "w", encoding="utf-8") as f:
+                f.write(driver.page_source)
+
+            # Parsing dengan BeautifulSoup
+            soup = BeautifulSoup(driver.page_source, "html.parser")
+            
+            # Ambil semua elemen a untuk nama kampus
+            kampus_elements = soup.find_all('a', href=True)
+            print(f"Ditemukan {len(kampus_elements)} elemen a dengan href.")  # Debugging
+            
+            # Filter elemen a dengan class 'affil-name'
+            kampus_elements = [a for a in kampus_elements if 'affiliations/profile' in a['href']]
+            print(f"Ditemukan {len(kampus_elements)} elemen a dengan href yang mengandung 'affiliations/profile'.")  # Debugging
+            
+            # Ambil semua elemen div dengan class 'pr-num' untuk Sinta score
+            sinta_elements = soup.find_all('div', class_='pr-num')
+            print(f"Ditemukan {len(sinta_elements)} elemen div pr-num.")  # Debugging
+            
+            if not kampus_elements or not sinta_elements:
+                logging.warning("Tidak menemukan elemen kampus atau Sinta score di halaman.")
+                break
+            else:
+                logging.info(f"Ditemukan {len(kampus_elements)} kampus dan {len(sinta_elements)} Sinta score.")
+            
+            # Proses data kampus dan Sinta score
+            for i in range(len(kampus_elements)):
+                nama_kampus = kampus_elements[i].get_text(strip=True)
+                sinta_score = sinta_elements[i * 2].get_text(strip=True)  # Ambil hanya elemen pr-num pertama
+                kampus_list.append([nama_kampus, sinta_score])
+                print(f"Data ditemukan: {nama_kampus}, {sinta_score}")  # Debugging
+
+            # Cek apakah ada halaman berikutnya
+            next_button = soup.find('a', class_='page-link', text='Next')
+            if next_button:
+                page += 1
+            else:
+                break
 
         # Simpan data ke file CSV
         if kampus_list:
-            save_to_csv(kampus_list, "../data/data_kampus.csv")
+            save_to_csv(kampus_list, "data/data_kampus.csv")
             logging.info(f"Data berhasil disimpan di ../data/data_kampus.csv")
         else:
             logging.warning("Tidak ada data kampus yang disimpan karena kosong.")

@@ -1,0 +1,22 @@
+2025-01-19 15:26:20,362 - INFO - Memulai scraping data dari halaman utama.
+2025-01-19 15:26:27,033 - INFO - 18 kampus ditemukan untuk jurusan "Manajemen Informatika"
+2025-01-19 15:26:27,048 - INFO - Data ditemukan: Sekolah Tinggi Manajemen…Informatika dan Komputer Jakarta STI&K
+2025-01-19 15:26:27,049 - INFO - Data ditemukan: Universitas Dirgantara…Marsekal Suryadarma
+2025-01-19 15:26:27,049 - INFO - Data ditemukan: Politeknik Astra
+2025-01-19 15:26:27,049 - INFO - Data ditemukan: Universitas Lampung…(Unila)
+2025-01-19 15:26:27,049 - INFO - Data ditemukan: Politeknik Negeri Sambas
+2025-01-19 15:26:27,050 - INFO - Data ditemukan: Politeknik Negeri…Malang (Polinema)
+2025-01-19 15:26:27,050 - INFO - Data ditemukan: Universitas Negeri…Surabaya (Unesa)
+2025-01-19 15:26:27,050 - INFO - Data ditemukan: Politeknik Negeri Subang
+2025-01-19 15:26:27,050 - INFO - Data ditemukan: Politeknik Negeri Bali
+2025-01-19 15:26:27,051 - INFO - Data ditemukan: Politeknik Negeri…Jember (Polije)
+2025-01-19 15:26:27,051 - INFO - Data ditemukan: Politeknik Negeri…Lampung (Polinela)
+2025-01-19 15:26:27,051 - INFO - Data ditemukan: Sekolah Tinggi Multi Media…(MMTC) Yogyakarta
+2025-01-19 15:26:27,051 - INFO - Data ditemukan: Politeknik Negeri…Banjarmasin
+2025-01-19 15:26:27,051 - INFO - Data ditemukan: Universitas Negeri…Gorontalo
+2025-01-19 15:26:27,052 - INFO - Data ditemukan: Universitas Pendidikan…Ganesha (Undiksa)
+2025-01-19 15:26:27,052 - INFO - Data ditemukan: Politeknik Negeri Medan…(Polmed)
+2025-01-19 15:26:27,052 - INFO - Data ditemukan: Politeknik Negeri…Padang (PNP)
+2025-01-19 15:26:27,052 - INFO - Data ditemukan: Politeknik Negeri…Sriwijaya (Polsri)
+2025-01-19 15:26:27,080 - INFO - Tidak ada tombol 'Lihat kampus lain' atau tombol tidak dapat diklik.
+2025-01-19 15:26:27,082 - INFO - Data berhasil disimpan di data/daftar_kampus_mti.csv

@@ -1,0 +1,80 @@
+2025-01-19 15:21:05,531 - INFO - Memulai scraping data dari halaman utama.
+2025-01-19 15:21:15,500 - INFO - 76 kampus ditemukan untuk jurusan "Ilmu Komputer"
+2025-01-19 15:21:15,534 - INFO - Data ditemukan: Universitas Kristen…Maranatha
+2025-01-19 15:21:15,535 - INFO - Data ditemukan: Universitas Prasetiya…Mulya
+2025-01-19 15:21:15,535 - INFO - Data ditemukan: Universitas Esa Unggul (UEU)
+2025-01-19 15:21:15,535 - INFO - Data ditemukan: Universitas Budi Luhur…(UBL)
+2025-01-19 15:21:15,536 - INFO - Data ditemukan: Universitas Yatsi Madani
+2025-01-19 15:21:15,536 - INFO - Data ditemukan: Universitas Nusa Mandiri
+2025-01-19 15:21:15,536 - INFO - Data ditemukan: Sampoerna University
+2025-01-19 15:21:15,537 - INFO - Data ditemukan: Universitas BSI
+2025-01-19 15:21:15,537 - INFO - Data ditemukan: Institut Teknologi…Sepuluh November (ITS)
+2025-01-19 15:21:15,537 - INFO - Data ditemukan: Universitas Negeri Medan…(Unimed)
+2025-01-19 15:21:15,538 - INFO - Data ditemukan: Universitas Lampung…(Unila)
+2025-01-19 15:21:15,538 - INFO - Data ditemukan: Universitas Sriwijaya…(Unsri)
+2025-01-19 15:21:15,538 - INFO - Data ditemukan: Universitas Andalas…(Unand)
+2025-01-19 15:21:15,538 - INFO - Data ditemukan: Universitas Brawijaya (UB)
+2025-01-19 15:21:15,539 - INFO - Data ditemukan: Universitas Lambung…Mangkurat (Unlam)
+2025-01-19 15:21:15,539 - INFO - Data ditemukan: Universitas Syiah Kuala…(Unsyiah)
+2025-01-19 15:21:15,539 - INFO - Data ditemukan: Universitas Mulawarman…(Unmul)
+2025-01-19 15:21:15,539 - INFO - Data ditemukan: Universitas Diponegoro…(Undip)
+2025-01-19 15:21:15,540 - INFO - Data ditemukan: Universitas Sumatera…Utara (USU)
+2025-01-19 15:21:15,540 - INFO - Data ditemukan: Institut Pertanian…Bogor (IPB)
+2025-01-19 15:21:15,540 - INFO - Data ditemukan: Universitas Hasanuddin…(Unhas)
+2025-01-19 15:21:15,541 - INFO - Data ditemukan: Universitas Pendidikan…Indonesia (UPI)
+2025-01-19 15:21:15,541 - INFO - Data ditemukan: Universitas Negeri…Makassar
+2025-01-19 15:21:15,541 - INFO - Data ditemukan: Universitas Indonesia (UI)
+2025-01-19 15:21:15,541 - INFO - Data ditemukan: Institut Teknologi…Bandung (ITB)
+2025-01-19 15:21:15,542 - INFO - Data ditemukan: Universitas Negeri…Jakarta (UNJ)
+2025-01-19 15:21:15,542 - INFO - Data ditemukan: Universitas Gadjah Mada…(UGM)
+2025-01-19 15:21:15,542 - INFO - Data ditemukan: Universitas Tanjungpura…(Untan)
+2025-01-19 15:21:15,543 - INFO - Data ditemukan: Binus University
+2025-01-19 15:21:15,543 - INFO - Data ditemukan: Methodist College Kuala…Lumpur (MCKL)
+2025-01-19 15:21:15,543 - INFO - Data ditemukan: Institut Teknologi…Telkom Surabaya (ITTS)
+2025-01-19 15:21:15,543 - INFO - Data ditemukan: G2 Academy
+2025-01-19 15:21:15,544 - INFO - Data ditemukan: Universitas Teknokrat…Indonesia (UTI)
+2025-01-19 15:21:15,544 - INFO - Data ditemukan: Universitas Telkom (Tel-U)
+2025-01-19 15:21:15,544 - INFO - Data ditemukan: Universitas Respati…Indonesia
+2025-01-19 15:21:15,544 - INFO - Data ditemukan: University of Melbourne…(Australia)
+2025-01-19 15:21:15,545 - INFO - Data ditemukan: Universitas Multimedia…Nusantara
+2025-01-19 15:21:15,545 - INFO - Data ditemukan: Universitas Gunadarma
+2025-01-19 15:21:15,545 - INFO - Data ditemukan: International University…Liaison Indonesia (IULI)
+2025-01-19 15:21:15,545 - INFO - Data ditemukan: National University of…Singapore (NUS)
+2025-01-19 15:21:15,546 - INFO - Data ditemukan: Universitas Surakarta
+2025-01-19 15:21:15,546 - INFO - Data ditemukan: Universitas Pembangunan…Panca Budi
+2025-01-19 15:21:15,546 - INFO - Data ditemukan: Politeknik Harapan…Bersama
+2025-01-19 15:21:15,546 - INFO - Data ditemukan: Sekolah Tinggi Manajemen…Informatika dan Komputer (STMIK) Mercusuar
+2025-01-19 15:21:15,547 - INFO - Data ditemukan: Universitas Nusa Cendana
+2025-01-19 15:21:15,547 - INFO - Data ditemukan: Politeknik Piksi Ganesha
+2025-01-19 15:21:15,547 - INFO - Data ditemukan: STMIK Indonesia
+2025-01-19 15:21:15,547 - INFO - Data ditemukan: Universitas Serang Raya
+2025-01-19 15:21:15,547 - INFO - Data ditemukan: Lembaga Pendidikan…dan Pengembangan Profesi Indonesia (LP3I)
+2025-01-19 15:21:15,548 - INFO - Data ditemukan: Institut Sains dan Teknologi…Akprind
+2025-01-19 15:21:15,548 - INFO - Data ditemukan: Universitas Kristen Satya…Wacana
+2025-01-19 15:21:15,548 - INFO - Data ditemukan: Institut Informatika…dan Bisnis Darmajaya
+2025-01-19 15:21:15,549 - INFO - Data ditemukan: BINUS University…International
+2025-01-19 15:21:15,549 - INFO - Data ditemukan: Universitas Pertamina
+2025-01-19 15:21:15,549 - INFO - Data ditemukan: AMIK Sultan Agung
+2025-01-19 15:21:15,549 - INFO - Data ditemukan: Universitas Islam Negeri…Sumatera Utara
+2025-01-19 15:21:15,549 - INFO - Data ditemukan: Universitas Halu Oleo…(UHO)
+2025-01-19 15:21:15,550 - INFO - Data ditemukan: Matana University
+2025-01-19 15:21:15,550 - INFO - Data ditemukan: Universitas Bung Hatta…(UBH)
+2025-01-19 15:21:15,550 - INFO - Data ditemukan: Sekolah Tinggi Manajemen…Informatika dan Komputer (STMIK) Pranata Indonesia
+2025-01-19 15:21:15,550 - INFO - Data ditemukan: ESQ Business School
+2025-01-19 15:21:15,550 - INFO - Data ditemukan: Kirirom Institute of…Technology (KIT Cambodia)
+2025-01-19 15:21:15,551 - INFO - Data ditemukan: Akademi Komunitas…Negeri Pacitan
+2025-01-19 15:21:15,551 - INFO - Data ditemukan: Sekolah Tinggi Manajemen…Informatika dan Komputer Insan Pembangunan
+2025-01-19 15:21:15,551 - INFO - Data ditemukan: Tsinghua University…(China)
+2025-01-19 15:21:15,551 - INFO - Data ditemukan: Universitas Pendidikan…Ganesha (Undiksa)
+2025-01-19 15:21:15,552 - INFO - Data ditemukan: Politeknik Negeri Medan…(Polmed)
+2025-01-19 15:21:15,552 - INFO - Data ditemukan: Universitas Komputer…Indonesia (Unikom)
+2025-01-19 15:21:15,552 - INFO - Data ditemukan: Universitas Klabat
+2025-01-19 15:21:15,552 - INFO - Data ditemukan: Universitas Prima…Indonesia
+2025-01-19 15:21:15,552 - INFO - Data ditemukan: Universitas Bina Darma
+2025-01-19 15:21:15,552 - INFO - Data ditemukan: Universitas Sembilanbelas…November
+2025-01-19 15:21:15,552 - INFO - Data ditemukan: Monash University…(Australia)
+2025-01-19 15:21:15,554 - INFO - Data ditemukan: Politeknik Negeri…Sriwijaya (Polsri)
+2025-01-19 15:21:15,554 - INFO - Data ditemukan: Universitas AMIKOM…Yogyakarta
+2025-01-19 15:21:15,554 - INFO - Data ditemukan: Universiti Malaya…(Malaysia)
+2025-01-19 15:21:15,582 - INFO - Tidak ada tombol 'Lihat kampus lain' atau tombol tidak dapat diklik.
+2025-01-19 15:21:15,586 - INFO - Data berhasil disimpan di data/daftar_kampus_ilkom.csv
